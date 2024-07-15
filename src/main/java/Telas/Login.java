@@ -12,10 +12,9 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
         conexao = Conexao.conector();
-        //System.out.println("CONECTOU MEU CHAPAAAAAAA!");
         
         if (conexao !=null){
-            lblStatus.setText("Conectadooo");
+            lblStatus.setText("Conectado");
         }else{
             lblStatus.setText("Não conectado");
         }
