@@ -15,7 +15,7 @@ public class Login extends javax.swing.JFrame {
         //System.out.println("CONECTOU MEU CHAPAAAAAAA!");
         
         if (conexao !=null){
-            lblStatus.setText("Conectadoo");
+            lblStatus.setText("Conectadooo");
         }else{
             lblStatus.setText("Não conectado");
         }
