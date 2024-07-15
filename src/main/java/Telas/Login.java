@@ -14,7 +14,7 @@ public class Login extends javax.swing.JFrame {
         conexao = Conexao.conector();
         
         if (conexao !=null){
-            lblStatus.setText("Conectadoaa");
+            lblStatus.setText("Conectado");
         }else{
             lblStatus.setText("Não conectado");
         }
