@@ -35,7 +35,7 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="pswSenha" min="-2" pref="334" max="-2" attributes="0"/>
+                      <Component id="txtSenha" min="-2" pref="334" max="-2" attributes="0"/>
                       <Component id="txtUsuario" min="-2" pref="334" max="-2" attributes="0"/>
                   </Group>
                   <Component id="btnLogin" min="-2" max="-2" attributes="0"/>
@@ -55,7 +55,7 @@
               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="pswSenha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSenha" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="46" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -83,7 +83,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUsuarioActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JPasswordField" name="pswSenha">
+    <Component class="javax.swing.JPasswordField" name="txtSenha">
     </Component>
     <Component class="javax.swing.JButton" name="btnLogin">
       <Properties>
